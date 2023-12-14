@@ -1,5 +1,5 @@
-const sleep = require('./Tools/timeTools.js');
-const creatADiv = require('./Tools/domTools.js');
+import sleep from './Tools/timeTools.js';
+import creatADiv from './Tools/domTools.js';
 
 const mounted = () => {
     console.log("PzJsTools.js加载成功！");
@@ -11,4 +11,4 @@ const PzJsTools = {
     mounted
 }
 
-module.exports = PzJsTools;
+export default PzJsTools;
