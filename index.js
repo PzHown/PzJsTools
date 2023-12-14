@@ -11,6 +11,6 @@ const PzJsTools = {
     mounted
 }
 
-export default PzJsTools;
+module.exports = PzJsTools;
 
 
